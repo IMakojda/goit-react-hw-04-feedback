@@ -1,0 +1,10 @@
+.button__feedback {
+  height: 50px;
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(75, 75, 75, 0.911);
+  background-color: rgb(216, 216, 216);
+}
