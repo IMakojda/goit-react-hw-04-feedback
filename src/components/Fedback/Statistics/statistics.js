@@ -3,14 +3,14 @@ import ValueStatistic from "./valueStatistic";
 import PropTypes from 'prop-types';
 
 
-const Statistic = ({good,neutral,bad,total,positivePercentage}) =>
-        <div>
-            <ValueStatistic titleName="Good" valueStat={good} />
-            <ValueStatistic titleName="Neutral" valueStat={neutral} />
-            <ValueStatistic titleName="Bad" valueStat={bad} />
-            <ValueStatistic titleName="Total" valueStat={total} />
-            <ValueStatistic titleName="Positive feedback" valueStat={positivePercentage}/>    
-        </div>
+const Statistic = ({ good, neutral, bad, total, positivePercentage }) =>
+  <div>
+    <ValueStatistic titleName="Good" valueStat={good} />
+    <ValueStatistic titleName="Neutral" valueStat={neutral} />
+    <ValueStatistic titleName="Bad" valueStat={bad} />
+    <ValueStatistic titleName="Total" valueStat={total} />
+    <ValueStatistic titleName="Positive percent feedback " valueStat={positivePercentage} />
+  </div>
 export default Statistic;
 
 Statistic.propTypes = {
